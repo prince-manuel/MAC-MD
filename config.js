@@ -10,13 +10,13 @@ global.email = 'sam@secktor.live'
 global.github = 'https://github.com/Maccoder3/MAC-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '256705036288'
+global.sudo = process.env.SUDO || '2349017935543'
 global.devs = '256705036288';
 global.website = 'https://github.com/Maccoder3/MAC-MD' //wa.me/+25000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/8ec95da555e8347af71bd.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'MAC 𝐁𝐨𝐭' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'mac' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝓟𝓡𝓘𝓝𝓒𝓔 𝐁𝐨𝐭' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '𝓟𝓡𝓘𝓝𝓒𝓔' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'mac' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
@@ -27,7 +27,7 @@ module.exports = {
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
-  HANDLERS:  process.env.PREFIX === undefined ? ['.'] : process.env.PREFIX,
+  HANDLERS:  process.env.PREFIX === undefined ? ['$'] : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
   levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? false : process.env.LEVEL_UP_MESSAGE,
